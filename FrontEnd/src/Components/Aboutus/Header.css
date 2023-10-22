@@ -1,0 +1,58 @@
+/* Basic CSS Reset for consistent styling across browsers */
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the heading */
+.vision-heading {
+  color: #4CAF50; /* Text color (green) */
+  padding: 10px 0; /* Decrease vertical padding */
+  text-align: center; /* Center the text */
+  font-size: 32px; /* Increased font size */
+  font-weight: bold; /* Bold text */
+  position: relative; /* Add relative positioning to the heading */
+}
+
+/* Add the yellow underline below "Our Vision" text */
+.vision-heading::after {
+  content: '';
+  position: absolute;
+  left: 50%; /* Center the underline horizontally */
+  bottom: 0;
+  transform: translateX(-50%); /* Center the underline horizontally */
+  width: 100px; /* Adjust the width to cover "Our Vision" text */
+  height: 4px; /* Decrease the thickness of the underline */
+  background-color: yellow; /* Yellow underline color */
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px; /* Total width of the cards plus margins */
+  margin: 0 auto; /* Center the container */
+}
+
+.flip-card {
+  width: 300px;
+  transition: transform 0.5s;
+}
+
+/* Add other flip card styling as mentioned in previous responses */
+p {
+  font-size: 18px; /* Increase the font size as needed */
+  margin-left:13px;
+}
+
+.bold-and-capital {
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-weight: bold;
+}
+
+.mission-heading {
+  border-bottom: 4px solid yellow; /* Adjust the width and color as needed */
+  display: inline-block; /* Make the underline only as wide as the text */
+  margin-bottom: 10px; /* Add some distance between text and underline */
+  color: #4CAF50;
+  margin-left:250px;
+}
+

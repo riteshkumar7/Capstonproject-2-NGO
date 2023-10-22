@@ -1,0 +1,72 @@
+
+.AdminLogInmain {
+background-image: url('../adminbg.png'); /* Adjust the path to your image file */
+background-size: 100% 900px; /* Width 100%, Height 100px */
+background-repeat: no-repeat;
+opacity: 1;
+}
+.Content {
+    
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    margin-top: 40px;
+    margin-left: 520px;
+    
+    
+  }
+
+  .Content form {
+    width: 50%;
+  }
+  
+  .Content input,
+  .Content button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+ 
+
+  .Content p {
+  
+    font-size: 18px;
+    
+  }
+
+  .login{
+    margin:70px 120px;
+}
+.log{
+    width:1050px;
+    height:450px;
+    opacity:1;
+}
+#body>#B{
+    display:flex;
+    width:500px;
+
+    
+}
+#icon{
+    text-align: center;
+    margin: 20px;
+}
+
+.blur-background {
+    filter: blur(2px); 
+  }
+   .highlight-form {
+    border: 2px solid red;
+     
+  }
+
+
+
+
+
+
+
+
+
+  

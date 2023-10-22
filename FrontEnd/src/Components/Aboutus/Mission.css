@@ -1,0 +1,54 @@
+
+/* CSS for the image layout container */
+.image-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/* CSS for the row of images */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0; /* Increase margin to separate the rows */
+}
+
+/* CSS for individual images */
+.image {
+  width: 200px; /* Increase image size */
+  height: 200px; /* Increase image size */
+  border: 1px solid #ccc;
+  margin: 24px; /* Increase margin to separate the circular images */
+  border-radius: 50%; /* Create circular shape */
+  overflow: hidden;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CSS for the image overlay effect */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Overlay background color and opacity */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Fade-in effect on image hover */
+.image:hover .image-overlay {
+  opacity: 1;
+}
+.righthand
+{
+  float: right;
+}
